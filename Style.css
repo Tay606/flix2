@@ -1,0 +1,60 @@
+body {
+color:blueviolet;
+background: black;
+margin: 0px;
+font-family: "Playfair Display", serif;
+margin-bottom:100px;
+}
+
+header{
+border-bottom:solid 2px rgb(98, 24, 167);
+padding:20px;
+font-size: 32px;
+color:rgb(98, 24, 167);
+}
+
+.Chamada{
+background: rgb(69, 37, 80);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content:center;
+}
+
+.chamada-texto {
+margin-right:6%;
+}
+
+h1 {
+font-size:36px;
+}
+
+p {
+font-size:20px;
+}
+
+.Categoria-Vídeos {
+display: flex;
+overflow-x:auto;
+gap: 10px;
+}
+
+.Categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top:50px;
+}
+
+.Categoria-Vídeos img {
+opacity:0.5;
+height:200px;
+}
+
+.Categoria-Vídeos img:hover {
+opacity:1.0;
+border:1px solid rgb(191, 5, 253) ;
+}
+
+.Categoria h2 {
+    color: rgb(98, 24, 167);
+}
